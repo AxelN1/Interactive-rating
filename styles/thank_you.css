@@ -1,0 +1,57 @@
+body {
+    position: relative;
+    background-color: #151518;
+    font-family: "specimen", sans-serif;
+
+}
+
+.thank_you_card {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    padding: 30px;
+    background-color: #1f2731;
+    width: 22%;
+    border-radius: 8%;
+}
+
+.thank_you_card svg {
+    margin-left: 25%;
+}
+
+.thank_you_card h2 {
+    color: hsl(25, 97%, 53%);
+    background-color: #252f38;
+    font-size: 15px;
+    width: 170px;
+    margin-left: 22%;
+    margin-top: 8%;
+    padding: 8px;
+    text-align: center;
+    border-radius: 58px 58px 58px 58px;
+
+}
+
+.thank_you_card h1 {
+    color: #fdfffe;
+    text-align: center;
+}
+
+.thank_you_card p {
+    color: #727b84;
+    text-align: center;
+    width: 97%;
+    font-size: 15px;
+}
+
+@media screen and (max-width: 375px) {
+    .thank_you_card {
+        transform: translate(-50%, 18%);
+        width: 80%;
+    }
+
+    .thank_you_card svg {
+        margin-left: 22%;
+    }
+}
