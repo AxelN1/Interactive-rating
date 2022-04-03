@@ -29,8 +29,8 @@ if (localStorage.getItem("selected") != null) {
     selected.textContent = ` ${localStorage.getItem("selected")}`;
 }
 
-
-function thankYou() {
-
+function check() {
     window.open("thank_you.html");
 }
+
+window.onload = window.localStorage.clear();
